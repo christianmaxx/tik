@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap'); 
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background: white;
+  min-height: 100vh;
+}
+#header {
+  width: 100%;
+  padding: 20px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+#header ul li a {
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #094b65;
+  border-radius: 20px; 
+}
+#header ul li a:hover
+{
+  background: #094b65;
+  color: white;
+  cursor: pointer;
+  transition:  0.15s;
+}
+table .right-column {
+  background: darkseagreen;
+}
+table .left-column {
+  text-align: center;
+  vertical-align: top;
+  line-height: 50px;
+}
+table td a{
+  text-decoration: none;
+  color: white;
+}
+table .right-column {
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+table .right-column p{
+  text-align: left;
+}
+table .left-column a {
+  border-radius: 20px;
+  padding: 6px 15px;
+}
+table .left-column a:hover,
+table .left-column a.active {
+  background: white;
+  color:#094b65;
+  transition: 0.15s;
+  cursor: pointer;
+}
+table ol {
+  padding-left: 30px;
+}
+.image-agama {
+  text-align: center;
+}

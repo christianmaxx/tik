@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins',sans-serif;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  background: white;
+  min-height: 100vh;
+}
+#header {
+  width: 100%;
+  padding: 20px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+#header ul li a {
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #094b65;
+  border-radius: 20px; 
+}
+#header ul li a:hover,
+#header ul li .active
+{
+  background: #094b65;
+  color: white;
+  cursor: pointer;
+  transition:  0.15s;
+}
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+section #text {
+  color: #094b65;
+  font-size: 8em;
+  text-align: center;
+  line-height: 0.55em;
+  font-family: 'Rancho', cursive;
+}
+section #text span {
+  font-size: 0.15em;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+.sec {
+  padding: 100px;
+  background: #094b65;
+}
+.sec h2 {
+  color: white;
+  font-size: 3.5em;
+  margin-bottom: 10px;
+}
+.sec p {
+  color: white;
+  font-size: 1em;
+}
+section img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.sec ul li {
+  list-style: none;
+  line-height: 50px;
+}
+.sec ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+.sec ul li a:hover {
+  background: white;
+  color:#094b65;
+  transition: 0.15s;
+  cursor: pointer;
+}
+.sec hr {
+  margin-bottom: 20px;
+}
+.sec h3 {
+  color: white;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
